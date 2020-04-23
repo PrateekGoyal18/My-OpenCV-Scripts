@@ -1,4 +1,3 @@
-import imutils
 import cv2
 
 # load the input image and show its dimensions, keeping in mind that
