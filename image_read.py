@@ -4,6 +4,7 @@ import cv2
 # load the input image and show its dimensions, keeping in mind that
 # images are represented as a multi-dimensional NumPy array with
 # shape no. rows (height) x no. columns (width) x no. channels (depth)
+# width*height = cols*rows = x*y and in opencv it's always the other way round while writing code
 image = cv2.imread("image.jpg")
 (h, w, d) = image.shape
 print("width={}, height={}, depth={}".format(w, h, d))
@@ -19,7 +20,7 @@ cv2.waitKey(0)
 print("R={}, G={}, B={}".format(R, G, B))
 
 # extract a 100x100 pixel square ROI (Region of Interest) from the
-# input image starting at x=450,y=350 at ending at x=650,y=475
+# input image starting at x=450,y=350 at ending at x=650,y=500
 roi = image[350:500, 450:650]
 cv2.imshow("ROI", roi)
 cv2.waitKey(0)
