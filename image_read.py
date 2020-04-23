@@ -13,13 +13,13 @@ print("width={}, height={}, depth={}".format(w, h, d))
 cv2.imshow("Image", image)
 cv2.waitKey(0)
 
-# access the RGB pixel located at x=50, y=100
-# (keep in mind that the height is the number of rows and the width is the number of columns)
-(B, G, R) = image[100, 50]
+# access the RGB pixel located at x=200, y=400
+# keep in mind that the height is the number of rows and the width is the number of columns
+(B, G, R) = image[400, 200]
 print("R={}, G={}, B={}".format(R, G, B))
 
 # extract a 100x100 pixel square ROI (Region of Interest) from the
-# input image starting at x=320,y=60 at ending at x=420,y=160
-roi = image[60:160, 320:420]
+# input image starting at x=450,y=350 at ending at x=650,y=475
+roi = image[350:500, 450:650]
 cv2.imshow("ROI", roi)
 cv2.waitKey(0)
