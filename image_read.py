@@ -4,7 +4,7 @@ import cv2
 # images are represented as a multi-dimensional NumPy array with
 # shape no. rows (height) x no. columns (width) x no. channels (depth)
 # width*height = cols*rows = x*y and in opencv it's always the other way round while writing code
-image = cv2.imread("image.jpg")
+image = cv2.imread("images/image.jpg")
 (h, w, d) = image.shape
 print("width={}, height={}, depth={}".format(w, h, d))
 

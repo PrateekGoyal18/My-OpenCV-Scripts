@@ -1,7 +1,7 @@
 import imutils
 import cv2
 
-image = cv2.imread("image.jpg")
+image = cv2.imread("images/image.jpg")
 (h, w, d) = image.shape
 
 # # let's rotate an image 45 degrees clockwise using OpenCV by first

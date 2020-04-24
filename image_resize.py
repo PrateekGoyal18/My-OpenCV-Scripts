@@ -1,7 +1,7 @@
 import imutils
 import cv2
 
-image = cv2.imread("image.jpg")
+image = cv2.imread("images/image.jpg")
 
 # resize the image to 200x200px, ignoring aspect ratio
 resized = cv2.resize(image, (200, 200))
