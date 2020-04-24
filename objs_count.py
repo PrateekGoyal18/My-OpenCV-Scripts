@@ -1,5 +1,4 @@
 import cv2
-import imutils
 
 # read the image
 image = cv2.imread("images/tetris_blocks.png")

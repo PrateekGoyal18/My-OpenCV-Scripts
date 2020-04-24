@@ -1,1 +1,1 @@
-These are some of my OpenCV examples that I wrote while learning computer vision.
+These are some of my OpenCV examples that I wrote while learning basics of computer vision.
