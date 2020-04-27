@@ -1,15 +1,14 @@
 import cv2
 
-# load the input image and show its dimensions, keeping in mind that
+# load the input image and show its dimensions
 # images are represented as a multi-dimensional NumPy array with
 # shape no. rows (height) x no. columns (width) x no. channels (depth)
 # width*height = cols*rows = x*y and in opencv it's always the other way round while writing code
-image = cv2.imread("images/image.jpg")
+image = cv2.imread("images/venice.png")
 (h, w, d) = image.shape
 print("width={}, height={}, depth={}".format(w, h, d))
 
-# display the image to our screen -- we will need to click the window
-# open by OpenCV and press a key on our keyboard to continue execution
+# display the image to our screen and press a key on the keyboard to continue execution
 cv2.imshow("Image", image)
 cv2.waitKey(0)
 

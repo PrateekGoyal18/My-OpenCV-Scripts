@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread('images/image.jpg')
+image = cv2.imread('images/venice_small.png')
 (height, width, dim) = image.shape
 
 cv2.imshow("Original", image)

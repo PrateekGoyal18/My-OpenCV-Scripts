@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread("images/image.jpg")
+image = cv2.imread("images/venice.png")
 output = image.copy()
 
 cv2.line(output, (165, 542), (775, 542), (0, 0, 255), 5)

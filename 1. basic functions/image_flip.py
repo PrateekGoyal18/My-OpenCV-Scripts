@@ -1,10 +1,9 @@
 import imutils
 import cv2
 
-image = cv2.imread("images/image.jpg")
+image = cv2.imread("images/venice_small.png")
 cv2.imshow("Original", image)
 cv2.waitKey(0)
-
 
 # 1 indicates that we are going to flip the image horizontally, around the y-axis
 flipped = cv2.flip(image, 1)
