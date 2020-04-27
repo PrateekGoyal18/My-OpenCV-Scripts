@@ -7,7 +7,7 @@ cv2.waitKey(0)
 
 # splitting
 (B, G, R) = cv2.split(image)
-zeros = np.zeros(image.shape[:2], dtype = "uint8")
+zeros = np.zeros(image.shape[:2], dtype="uint8")
 
 cv2.imshow("Red", R)
 cv2.imshow("Red (Actual Color)", cv2.merge([zeros, zeros, R]))

@@ -10,7 +10,7 @@ cv2.waitKey(0)
 
 # fixed resizing with width=500px and the height based on the aspect ratio
 (h, w, d) = image.shape
-r = 500.0 / w
+r = 500.0/w
 dim = (500, int(h*r))
 resized = cv2.resize(image, dim)
 cv2.imshow("Aspect Ratio Resize", resized)
