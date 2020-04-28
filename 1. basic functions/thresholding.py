@@ -9,7 +9,7 @@ cv2.imshow("Gray", image)
 cv2.waitKey(0)
 
 blurred = cv2.GaussianBlur(image, (5,5), 0)
-cv2.imshow("Blurred", image)
+cv2.imshow("Blurred", blurred)
 cv2.waitKey(0)
 
 # threshold the image by setting all pixel values less than 155 to 255 (white; coins) 
