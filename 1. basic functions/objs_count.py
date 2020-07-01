@@ -1,7 +1,7 @@
 import cv2
 
 # read the image
-image = cv2.imread("images/tetris_blocks.png")
+image = cv2.imread("images/coins.png")
 cv2.imshow("Image", image)
 cv2.waitKey(0)
 

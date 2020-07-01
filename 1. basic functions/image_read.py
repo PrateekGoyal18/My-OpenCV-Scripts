@@ -2,8 +2,9 @@ import cv2
 
 # load the input image and show its dimensions
 # images are represented as a multi-dimensional NumPy array with
-# shape no. rows (height) x no. columns (width) x no. channels (depth)
-# width*height = cols*rows = x*y and in opencv it's always the other way round while writing code
+# shape = no. rows (height) x no. columns (width) x no. channels (depth)
+# width*height = cols*rows = x*y (Common notation),
+# but in opencv it's always the other way round while writing code
 image = cv2.imread("images/venice.png")
 (h, w, d) = image.shape
 print("width={}, height={}, depth={}".format(w, h, d))
